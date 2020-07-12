@@ -1,0 +1,195 @@
+
+.div-logo, .text-home {
+    margin: auto;
+    text-align: center;
+    color: #FFF;;
+}
+
+.logo-home {
+    width: 190px;
+    height: 100px;
+    margin-top: 300px;
+}
+
+.row-btn-cat-nav {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 16px;
+  }
+    
+  .btn-lg {
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #89c74a;
+    border-color: #89c74a;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #89c74a;
+    border-color: #89c74a;
+  }
+  
+  /***********************
+    RAISED BUTTONS
+  ************************/
+  .btn-primary.raised {
+      box-shadow: 0 3px 0 0 #89c74a;
+  }
+  .btn-primary.raised:active, .btn-primary.raised.active {
+      background: #89c74a;
+      box-shadow: none;
+      margin-bottom: -3px;
+      margin-top: 3px;
+  }
+  
+  /***********************
+    CUSTON BTN VALUES
+  ************************/
+  
+  .btn {
+      padding: 14px 24px;
+      border: 0 none;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  }
+  .btn:focus, .btn:active:focus, .btn.active:focus {
+      outline: 0 none;
+  }
+  
+  .btn-primary {
+      background: #89c74a;
+      color: #ffffff;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+      background:#89c74a;
+  }
+  .btn-primary:active, .btn-primary.active {
+      background: #89c74a;
+      box-shadow: none;
+  }
+
+::ng-deep  .carousel.slide{
+      margin-top: 10px;;
+  }
+  slide {
+      img{
+          width:100%;
+          height:300px;
+      }
+  }
+
+  .div-logo h1{ color:#FFF;}
+
+  .grid, .grid--rev, .grid--full, .grid-uniform {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1230px;
+    margin: auto;
+}
+.support-block-type-1 .support_block {
+    border-radius: 10px;
+    padding: 30px 0;
+    position: relative;
+    z-index: 1;
+}
+ .support_section {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.support-block-type-1 .support_section .support_icon {
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+}
+.support-block-type-1 .support_icon a {
+    display: block;
+    font-size: 26px;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+    position: relative;
+    z-index: 1;
+}
+.support-block-type-1 .support_section .support_text {
+    text-align: left;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.support-block-type-1 ul {
+    list-style: none;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+.support-block-type-1 ul li {
+    line-height: normal;
+    padding-right: 10px;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.grid__item {
+    float: left;
+    min-height: 1px;
+    vertical-align: top;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.grid-uniform .wide--one-half:nth-child(2n+1), .grid-uniform .wide--one-third:nth-child(3n+1), .grid-uniform .wide--one-quarter:nth-child(4n+1), .grid-uniform .wide--one-fifth:nth-child(5n+1), .grid-uniform .wide--one-sixth:nth-child(6n+1), .grid-uniform .wide--two-sixths:nth-child(3n+1), .grid-uniform .wide--three-sixths:nth-child(2n+1), .grid-uniform .wide--two-eighths:nth-child(4n+1), .grid-uniform .wide--four-eighths:nth-child(2n+1), .grid-uniform .wide--five-tenths:nth-child(2n+1), .grid-uniform .wide--one-twelfth:nth-child(12n+1), .grid-uniform .wide--two-twelfths:nth-child(6n+1), .grid-uniform .wide--three-twelfths:nth-child(4n+1), .grid-uniform .wide--four-twelfths:nth-child(3n+1), .grid-uniform .wide--six-twelfths:nth-child(2n+1){
+    clear:both;
+}
+
+.wide--one-quarter{
+    width:33.33%;
+}
+
+.grid:after, .grid--rev:after, .grid--full:after, .grid-uniform:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.support-block-type-1 .support_section .support_icon, .support-block-type-1 .support_section .support_text{
+    display: inline-block;
+}

@@ -1,0 +1,14 @@
+.display-products{
+    width: 1400px;
+    margin: 20px auto;
+}
+.col-md-6{
+    border: 2px solid black;
+   margin-top:20px;
+   padding: 10px 10px;
+}
+
+.product-image carousel slide img{
+    width:691px;
+    height:273px;
+}
